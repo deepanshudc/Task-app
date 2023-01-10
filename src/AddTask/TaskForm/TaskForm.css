@@ -1,0 +1,28 @@
+.task_form{
+    height: 4%;
+    width: 25rem;
+    background-color: grey;
+    margin: 1rem;
+    padding: 2rem;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.task_form label{
+    text-align: center;
+    color: white;
+    margin: 1rem;
+}
+
+.task_form input{
+margin: 2% 10%;
+}
+
+.task_form button{
+    background-color: black;
+    color: white;
+    margin: 3% 30%;
+    font-size: medium;
+    border-radius: 12px;
+}

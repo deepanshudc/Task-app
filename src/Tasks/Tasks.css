@@ -1,0 +1,10 @@
+.task{
+    height: auto;
+    width: 30rem;
+    background-color: grey;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius:  12px;
+    display: flex;
+    flex-direction: column;
+}

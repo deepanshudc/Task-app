@@ -1,0 +1,19 @@
+.task_item{
+    background-color: aqua;
+    margin: 1rem;
+    padding: 1rem 1.5rem;
+    border-radius: 12px;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.task_item p{
+    margin: 0 0.5rem;
+}
+
+.task_item button{
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+}
