@@ -26,12 +26,20 @@ function App() {
     taskList.push(newTask);
   }
 
+  const deleteThisTask=taskId=>{
+    setTaskListUpdate(taskListUpdate=>{
+    const newTasks=taskListUpdate.filter(tasks=>(tasks.id!=taskId))
+    return newTasks
+  })
+   
+  }
+
   return (
     <div className='App'>
       <header className='App-header'>
         <h2>Task App</h2>
         <AddTask gotNewTask={gotNewTaskToAdd}></AddTask>
-        <Tasks taskList={taskListUpdate}></Tasks>
+        <Tasks taskList={taskListUpdate} toDeleteThisTask={deleteThisTask}></Tasks>
 
       </header>
     </div>
