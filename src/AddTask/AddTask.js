@@ -7,7 +7,7 @@ const AddTask=(props)=>{
 
         const NewTask={
             ...newTask,
-            id:Math.random.toString()
+            id:Math.random().toString()
         }
 
         props.gotNewTask(NewTask)

@@ -28,7 +28,7 @@ function App() {
 
   const deleteThisTask=taskId=>{
     setTaskListUpdate(taskListUpdate=>{
-    const newTasks=taskListUpdate.filter(tasks=>(tasks.id!=taskId))
+    const newTasks=taskListUpdate.filter(tasks=>(tasks.id!==taskId))
     return newTasks
   })
    
